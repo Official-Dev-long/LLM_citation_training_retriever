@@ -1,0 +1,792 @@
+
+  {
+    "line_number": 2312,
+    "item_id": 2311,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 2311,
+      "name": "Luca Rossi",
+      "gender": "Male",
+      "age": 38,
+      "medical_history": [
+        "No significant respiratory conditions",
+        "Occasional upper respiratory infections"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Works in a high-traffic office environment",
+        "Regular outdoor activities"
+      ],
+      "vaccination_history": [
+        "Incomplete pertussis vaccination in childhood",
+        "Up-to-date on other childhood vaccinations"
+      ],
+      "family_history": [
+        "No significant family history of respiratory diseases"
+      ],
+      "disease": "Pertussis",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "Catarrhal Stage": {
+            "cough": "Mild, persistent",
+            "nasal_congestion": "Moderate",
+            "rhinorrhea": "Mild",
+            "low_fever": "Occasional",
+            "throat_discomfort": "Mild"
+          },
+          "Paroxysmal Stage": {
+            "paroxysmal_spasmodic_cough": "Severe, occurring frequently",
+            "deep_inhalation": "Associated with coughing fits",
+            "whooping_sound": "Occasional",
+            "viscous_sputum": "Present",
+            "vomiting": "Occasional, due to intense coughing",
+            "worse_nighttime_coughing": "Significant"
+          },
+          "Convalescent Stage": {
+            "persistent_cough": "Lingering, less severe",
+            "recovery_period": "1-2 weeks, symptoms gradually decreasing"
+          }
+        },
+        "duration": "Symptoms have been present for approximately 3 weeks, with moderate severity and persistent coughing fitting the paroxysmal stage. Currently transitioning to the convalescent stage."
+      },
+      "examination_results": {
+        "laboratory_tests": "The peripheral white blood cell count is elevated at 12,500/µL with an increased absolute lymphocyte count of 11,000/µL. PCR testing of nasopharyngeal secretions is positive for Bordetella pertussis, confirming the diagnosis.",
+        "imaging_tests": "The chest X-ray is normal with no significant abnormalities, consistent with a mild case of pertussis without complications."
+      }
+    }
+  },
+  {
+    "line_number": 3004,
+    "item_id": 3003,
+    "issues": [
+      "Key 'age' should be int, got str",
+      "'age' must be an integer"
+    ],
+    "data": {
+      "id": 3003,
+      "name": "Hiroshi Tanaka",
+      "gender": "Male",
+      "age": "18 months",
+      "medical_history": [
+        "None, healthy infant prior to illness onset"
+      ],
+      "lifestyle_factor": [
+        "Close contact with older sibling who recently had a respiratory illness"
+      ],
+      "vaccination_history": [
+        "Incomplete DTP vaccination series due to delayed schedules"
+      ],
+      "family_history": [
+        "No specific family history of pertussis"
+      ],
+      "disease": "Pertussis",
+      "level": "moderate",
+      "symptom": {
+        "symptoms": [
+          "paroxysmal spasmodic cough",
+          "whooping sound",
+          "vomiting",
+          "worse nighttime coughing",
+          "low fever"
+        ],
+        "duration": "Symptoms have been worsening over the past 2 weeks, with frequent episodes of coughing and difficulty sleeping at night."
+      },
+      "examination_results": {
+        "laboratory_tests": "The complete blood count shows elevated white blood cells at 70,000/μL, with an absolute lymphocyte count of 12,000/μL. PCR for Bordetella pertussis DNA is positive, confirming the presence of the pathogen. No significant neutrophil increase was noted, suggesting no secondary bacterial infection.",
+        "imaging_tests": "The chest X-ray appears mostly normal with no signs of pneumonia or significant lung abnormalities. Slight hyperinflation may be present, but this is consistent with the moderate severity of the illness."
+      }
+    }
+  },
+  {
+    "line_number": 4353,
+    "item_id": 4352,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 4352,
+      "name": "Rajesh Patel",
+      "gender": "Male",
+      "age": 46,
+      "medical_history": [
+        "Previous respiratory infections",
+        "No known chronic conditions"
+      ],
+      "lifestyle_factor": [
+        "Lives in a densely populated area",
+        "Works in a public-facing job with high contact",
+        "Occasional smoker"
+      ],
+      "vaccination_history": [
+        "Inadequate vaccination history with no recent booster doses"
+      ],
+      "family_history": [
+        "No significant respiratory conditions in the family"
+      ],
+      "disease": "Pertussis",
+      "level": "severe",
+      "symptom": {
+        "symptoms": {
+          "catarrhal_stage": {
+            "cough": "Mild, starting about 2 weeks ago",
+            "nasal_congestion": "Present",
+            "rhinorrhea": "Mild",
+            "low_fever": "Occasional",
+            "throat_discomfort": "Slight"
+          },
+          "paroxysmal_stage": {
+            "paroxysmal_spasmodic_cough": "Severe, with persistent bouts lasting several minutes",
+            "deep_inhalation": "Observed during coughing fits",
+            "whooping_sound": "Present",
+            "viscous_sputum": "Notable",
+            "vomiting": "Occasional due to intense coughing",
+            "worse_nighttime_coughing": "Significant"
+          },
+          "convalescent_stage": {
+            "fever": "Occasional low-grade fever",
+            "general_condition": "Gradual improvement but persistent cough"
+          }
+        },
+        "duration": "Symptoms have persisted for 5 weeks with progression from catarrhal to paroxysmal stage. The patient has been experiencing coughing fits and associated symptoms for approximately 3 weeks."
+      },
+      "examination_results": {
+        "laboratory_tests": {
+          "White Blood Cell Count": "Significantly elevated at 68,000/µL, indicating a severe infection. Lymphocyte count is particularly high, exceeding 12,000/µL.",
+          "PCR Test": "Positive for Bordetella pertussis DNA in nasopharyngeal secretions, confirming the presence of the pathogen.",
+          "Serology": "Serological tests show elevated IgG and IgA antibodies against pertussis toxin, consistent with recent infection."
+        },
+        "imaging_tests": {
+          "Chest X-ray": "The chest X-ray appears mostly normal with no significant abnormalities, which is typical for pertussis unless secondary complications are present."
+        }
+      }
+    }
+  },
+  {
+    "line_number": 4744,
+    "item_id": 4743,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 4743,
+      "name": "Fatima Ahmed",
+      "gender": "Female",
+      "age": 27,
+      "medical_history": [
+        "No prior history of tuberculosis",
+        "No known immunocompromised conditions"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Lives in a densely populated urban area",
+        "Works in a healthcare setting with potential exposure to TB"
+      ],
+      "vaccination_history": [
+        "Not vaccinated with BCG"
+      ],
+      "family_history": [
+        "No known family history of tuberculosis"
+      ],
+      "disease": "Pulmonary Tuberculosis",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "low_fever": "Persistent low-grade fever for the past 2 months",
+          "night_sweats": "Night sweats occurring intermittently over the past 6 weeks",
+          "fatigue": "General fatigue present for the past 2 months",
+          "dry_cough": "Dry cough lasting for approximately 8 weeks",
+          "chest_pain": "Mild, intermittent chest pain for the past month",
+          "productive_cough": "Occasional productive cough with minimal sputum",
+          "bloody_sputum": "No bloody sputum observed",
+          "irritative_cough": "Cough irritation present but not severe",
+          "hemoptysis": "No hemoptysis reported",
+          "loss_of_appetite": "Mild loss of appetite noted",
+          "weight_loss": "Minor weight loss of about 3 kg over the past 2 months"
+        },
+        "duration": "Symptoms have been present for the past 8 weeks, with a gradual onset of symptoms. Symptoms have not significantly worsened but have persisted without notable improvement."
+      },
+      "examination_results": {
+        "physical_examination": "The physical exam reveals mild wheezing and localized dullness on percussion in the right upper lung field, consistent with early-stage pulmonary involvement. Breath sounds are generally normal, with no significant abnormalities noted.",
+        "imaging_tests": "Chest X-ray shows minor irregularities in the right upper lobe with no cavitary lesions or extensive infiltrates, suggesting early-stage disease. A CT scan may provide further detail if required.",
+        "etiological_examination": "Sputum smear microscopy for acid-fast bacilli is negative, but a sputum culture for Mycobacterium tuberculosis is pending. The nucleic acid test is recommended to confirm the diagnosis.",
+        "immunological_examination": "The Tuberculin Skin Test (PPD) is positive, but given the absence of BCG vaccination, a more specific interferon-gamma release assay (IGRA) is advised to confirm the active disease.",
+        "routine_blood_test": "Elevated erythrocyte sedimentation rate (ESR) at 45 mm/hr and C-reactive protein (CRP) at 12 mg/L, indicating ongoing inflammation consistent with the patient's symptoms.",
+        "endoscopic_examination": "Bronchoscopy reveals no significant abnormalities, but it can help in obtaining biopsies if symptoms persist or worsen. The endoscopic findings are non-specific but do not rule out tuberculosis."
+      }
+    }
+  },
+  {
+    "line_number": 6191,
+    "item_id": 6190,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 6190,
+      "name": "Carlos Mendoza",
+      "gender": "Male",
+      "age": 49,
+      "medical_history": [
+        "No chronic respiratory conditions",
+        "No significant prior illnesses"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Moderate alcohol consumption",
+        "Works in a high-stress environment",
+        "Regular exercise routine"
+      ],
+      "vaccination_history": [
+        "No recent influenza vaccination",
+        "Up-to-date on routine vaccinations"
+      ],
+      "family_history": [
+        "No significant family history of respiratory illnesses"
+      ],
+      "disease": "Influenza A",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "mild_stage": {
+            "low_fever": "2 days",
+            "sore_throat": "3 days",
+            "rhinorrhea": "3 days",
+            "mild_cough": "4 days",
+            "fatigue": "4 days"
+          },
+          "moderate_stage": {
+            "high_fever": "1 day",
+            "severe_cough": "2 days",
+            "generalized_muscle_soreness": "2 days",
+            "headache": "2 days",
+            "dehydration": "1 day",
+            "tachypnea": "1 day",
+            "tachycardia": "1 day"
+          }
+        },
+        "duration": "Overall symptoms have persisted for about 7 days. Mild symptoms transitioned to more moderate ones over the past 3 days."
+      },
+      "examination_results": {
+        "routine_blood_test": "White blood cell count is normal with no significant deviations in lymphocytes or platelets. There is no evidence of bacterial infection as indicated by normal neutrophil levels.",
+        "laboratory_tests": "Influenza A virus-specific antibodies show a 4-fold increase from initial to recovery stage samples, confirming the viral infection.",
+        "chest_x-ray": "The chest X-ray is clear with no signs of pneumonia or significant pulmonary consolidation. No ground-glass opacities or patchy shadows are observed."
+      }
+    }
+  },
+  {
+    "line_number": 7012,
+    "item_id": 7011,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 7011,
+      "name": "Liam O'Connor",
+      "gender": "Male",
+      "age": 42,
+      "medical_history": [
+        "No significant pre-existing conditions"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Works in a high-exposure environment (public transportation)",
+        "Moderate exercise routine",
+        "Maintains a balanced diet"
+      ],
+      "vaccination_history": [
+        "Fully vaccinated with primary COVID-19 vaccination series",
+        "Received booster shots as per guidelines"
+      ],
+      "family_history": [
+        "No known family history of autoimmune or respiratory conditions"
+      ],
+      "disease": "Novel Coronavirus Infection",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "pharyngeal_dryness": "1 week",
+          "sore_throat": "1 week",
+          "cough": "1 week",
+          "fever": "Moderate to low fever lasting 4 days",
+          "muscle_pain": "3 days",
+          "chest_tightness": "2 days",
+          "itchy_throat": "1 week",
+          "pharyngalgia": "1 week",
+          "nasal_congestion": "1 week",
+          "runny_nose": "1 week",
+          "diarrhea": "2 days",
+          "taste_abnormality": "4 days",
+          "olfactory_reduction": "4 days",
+          "anosmia": "2 days",
+          "conjunctivitis": "2 days",
+          "conjunctival_hyperemia": "2 days",
+          "conjunctival_edema": "2 days",
+          "eye_pain": "2 days",
+          "eye_itching": "2 days",
+          "foreign_body_sensation_in_the_eye": "2 days",
+          "excessive_eye_discharge": "2 days",
+          "loss_of_appetite": "3 days",
+          "nausea": "2 days",
+          "vomiting": "1 day",
+          "abnormal_liver_enzymes": "Elevated levels noted in recent tests",
+          "altered_consciousness": "Not present",
+          "confusion": "Not present",
+          "mental_status_changes": "Not present",
+          "arousal_disturbances": "Not present",
+          "abnormal_paroxysmal_movements": "Not present"
+        },
+        "duration": "Symptoms started 1 week ago, with most symptoms improving over time. The patient continues to experience mild symptoms like cough and nasal congestion."
+      },
+      "examination_results": {
+        "physical_examination_by_doctor": "Physical examination reveals mild respiratory distress with normal breath sounds and no rales or wheezes. The patient exhibits conjunctival hyperemia and mild tenderness in the throat.",
+        "laboratory_tests": "Laboratory tests show normal white blood cell count with a slight reduction in lymphocytes. Elevated liver enzymes (AST and ALT) are noted. C-reactive protein (CRP) levels are moderately elevated. Procalcitonin levels are within normal range, suggesting no severe bacterial infection. No significant abnormalities in D-dimer or other inflammatory markers. Imaging is not performed at this stage as symptoms are mild and manageable."
+      }
+    }
+  },
+  {
+    "line_number": 9602,
+    "item_id": 9601,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 9601,
+      "name": "Sophia Rossi",
+      "gender": "Female",
+      "age": 42,
+      "medical_history": [
+        "No significant chronic illnesses",
+        "Generally healthy with occasional cold symptoms"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Moderate physical activity",
+        "Balanced diet",
+        "Works in a high-traffic office environment"
+      ],
+      "vaccination_history": [
+        "Not up-to-date with influenza vaccination",
+        "Received routine childhood vaccinations"
+      ],
+      "family_history": [
+        "No family history of severe respiratory infections or chronic illnesses"
+      ],
+      "disease": "Influenza A",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "high_fever": "Lasted for 2 days, peaking at 101°F",
+          "cough": "Persistent dry cough for 4 days",
+          "sore_throat": "Started on the first day and persisted for 3 days",
+          "rhinorrhea": "Runny nose began on the second day and continued",
+          "fatigue": "Ongoing, with significant decrease in energy over the past 5 days",
+          "headache": "Intermittent, mostly in the frontal area, lasting 3 days",
+          "generalized_muscle_soreness": "Moderate soreness, especially in the back and legs, for 4 days",
+          "tachypnea": "Mild increase in breathing rate, noted during the first 3 days",
+          "tachycardia": "Mild increase in heart rate observed on the second day",
+          "cyanosis_of_the_lips": "Not observed",
+          "decreased_reactivity": "Slight decrease in alertness noted during fever peaks",
+          "lethargy": "General sense of tiredness, especially in the afternoon, lasting 5 days",
+          "agitation": "Mild irritability due to discomfort, primarily during fever peaks",
+          "low_fever": "Reduced to 99°F by the fourth day",
+          "difficulty_with_feeding": "No significant difficulty reported",
+          "dehydration": "Minor dehydration, addressed with increased fluid intake"
+        },
+        "duration": "Symptoms started 5 days ago and are gradually improving. Most symptoms are expected to resolve within 3-5 days."
+      },
+      "examination_results": {
+        "routine_blood_test": "The routine blood test shows a slightly elevated white blood cell count at 10,500 cells/µL, which is within normal limits for mild cases. No significant decrease in platelets or lymphocytes is noted, and there are no signs of elevated creatine kinase or liver enzymes.",
+        "laboratory_tests": "Serum samples show a modest increase in influenza A virus-specific antibodies, suggesting ongoing viral activity and recent infection. No substantial change in antibody levels was noted between initial and follow-up samples.",
+        "chest_x-ray": "The chest X-ray appears normal with no signs of pneumonia or other complications. There are no abnormal opacities or consolidations present, indicating that the current symptoms are not accompanied by lower respiratory tract infections."
+      }
+    }
+  },
+  {
+    "line_number": 10274,
+    "item_id": 273,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 273,
+      "name": "Liam O'Connor",
+      "gender": "Male",
+      "age": 40,
+      "medical_history": [
+        "Frequent colds",
+        "Mild seasonal allergies"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Works in an office environment",
+        "Occasional exposure to cold environments",
+        "Maintains good oral hygiene"
+      ],
+      "vaccination_history": [
+        "Up-to-date on childhood vaccinations",
+        "No specific vaccinations related to acute nasopharyngitis"
+      ],
+      "family_history": [
+        "No relevant family history of recurrent respiratory infections"
+      ],
+      "disease": "Acute Nasopharyngitis",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "enlarged_cervical_lymph_nodes": "Present, noticeable in the neck region",
+          "rhinorrhea": "Mild, clear nasal discharge",
+          "fever": "Mild fever, temperature up to 100.4°F (38°C)",
+          "nasal_congestion": "Moderate, causing difficulty in breathing through the nose",
+          "headache": "Mild, persistent throughout the day",
+          "cough": "Dry cough, occasional",
+          "sneezing": "Frequent, especially in the morning",
+          "sore_throat": "Slightly scratchy, not severe",
+          "fatigue": "Mild, feeling slightly tired",
+          "malaise": "General feeling of discomfort"
+        },
+        "duration": "Symptoms have been present for the past 5 days and are expected to resolve within the next week."
+      },
+      "examination_results": {
+        "nasopharyngoscopy": "The nasopharyngoscopy shows mild diffuse congestion of the mucosa with no significant purulent secretions. Edema is minimal, primarily affecting the posterior nasopharyngeal wall.",
+        "pharyngoscopy": "The pharyngoscopy reveals a small amount of mucus along the posterior wall of the pharynx, but no significant purulent discharge or additional pathology is observed."
+      }
+    }
+  },
+  {
+    "line_number": 10481,
+    "item_id": 480,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 480,
+      "name": "Sophia Martinez",
+      "gender": "Female",
+      "age": 49,
+      "medical_history": [
+        "No significant chronic illnesses",
+        "No history of severe respiratory infections"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Works in a shared office space",
+        "Visits crowded places occasionally"
+      ],
+      "vaccination_history": [
+        "Not vaccinated against influenza this season",
+        "Up-to-date on childhood vaccinations"
+      ],
+      "family_history": [
+        "No significant family history related to influenza"
+      ],
+      "disease": "Influenza A",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "high_fever": "Low-grade fever (99.5°F) experienced over the past 4 days",
+          "cough": "Dry cough present for 5 days",
+          "sore_throat": "Sore throat started 3 days ago",
+          "rhinorrhea": "Runny nose for 4 days",
+          "fatigue": "Fatigue and general weakness ongoing for 5 days",
+          "headache": "Mild headache experienced intermittently for 4 days",
+          "generalized_muscle_soreness": "Mild muscle soreness for 3 days",
+          "tachypnea": "Mild increase in respiratory rate",
+          "tachycardia": "Slightly elevated heart rate noted",
+          "cyanosis_of_the_lips": "No cyanosis observed",
+          "decreased_reactivity": "Slightly less active but no severe symptoms",
+          "lethargy": "Feeling of tiredness present but manageable",
+          "agitation": "Mild irritability",
+          "low_fever": "Low-grade fever experienced",
+          "difficulty_with_feeding": "No difficulty with feeding",
+          "dehydration": "No significant signs of dehydration"
+        },
+        "duration": "Symptoms have been ongoing for 5 days with gradual improvement."
+      },
+      "examination_results": {
+        "routine_blood_test": "White blood cell count is within normal limits, with no significant elevation or decrease. There are no indications of a secondary bacterial infection at this time.",
+        "laboratory_tests": "Influenza A-specific antibodies show a 4-fold increase from initial to recovery stage, confirming recent influenza A infection.",
+        "chest_x-ray": "The chest X-ray appears normal with no signs of pneumonia or other significant abnormalities. There are no patchy shadows or consolidation visible."
+      }
+    }
+  },
+  {
+    "line_number": 11198,
+    "item_id": 1197,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 1197,
+      "name": "Luca Rossi",
+      "gender": "Male",
+      "age": 27,
+      "medical_history": [
+        "No significant past respiratory infections",
+        "No pre-existing conditions like asthma"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Works in a busy office environment",
+        "Occasional exposure to crowded settings"
+      ],
+      "vaccination_history": [
+        "Received initial pertussis vaccination during childhood, but missed booster shots"
+      ],
+      "family_history": [
+        "No family history of pertussis or similar respiratory conditions"
+      ],
+      "disease": "Pertussis",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "catarrhal_stage": {
+            "cough": "Mild, occasional",
+            "nasal_congestion": "Present",
+            "rhinorrhea": "Present",
+            "low_fever": "Occasional",
+            "throat_discomfort": "Mild"
+          },
+          "paroxysmal_stage": {
+            "cough": "Occasional severe coughing fits",
+            "whooping_sound": "Occasional whooping sound during coughing",
+            "viscous_sputum": "Present",
+            "vomiting": "Rare",
+            "worse_nighttime_coughing": "Present"
+          },
+          "convalescent_stage": {
+            "cough": "Decreasing frequency",
+            "throat_discomfort": "Gradually improving",
+            "general_symptoms": "No longer experiencing fever or severe symptoms"
+          }
+        },
+        "duration": "Symptoms have been present for about 4 weeks, with a gradual improvement observed. The catarrhal stage lasted approximately 2 weeks, the paroxysmal stage persisted for around 2 weeks, and the patient is currently in the early part of the convalescent stage."
+      },
+      "examination_results": {
+        "laboratory_tests": "The white blood cell count is slightly elevated at 12,000/µL, with a lymphocyte count within normal range. PCR testing for Bordetella pertussis in nasopharyngeal secretions is positive, confirming the diagnosis. Serological tests show elevated antibody levels against pertussis toxin, consistent with recent infection.",
+        "imaging_tests": "The chest X-ray appears normal, which is typical for pertussis cases without complications or significant secondary infections."
+      }
+    }
+  },
+  {
+    "line_number": 11381,
+    "item_id": 1380,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 1380,
+      "name": "Liam O'Connor",
+      "gender": "Male",
+      "age": 40,
+      "medical_history": [
+        "Diagnosed with asthma at age 10",
+        "No other significant medical conditions"
+      ],
+      "lifestyle_factor": [
+        "Non-smoker",
+        "Lives in an urban area with moderate pollution",
+        "Engages in regular outdoor exercise",
+        "No significant exposure to occupational hazards"
+      ],
+      "vaccination_history": [
+        "Completed childhood vaccinations",
+        "No recent vaccinations for influenza or pneumococcal infections"
+      ],
+      "family_history": [
+        "Mother has seasonal allergies",
+        "Father is healthy with no history of asthma"
+      ],
+      "disease": "Asthma",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "wheezing": "Intermittent, mostly at night or during exercise",
+          "shortness_of_breath": "Occasional, usually triggered by physical exertion",
+          "chest_tightness": "Mild, mainly after physical activities",
+          "cough": "Dry cough, especially at night",
+          "dyspnea": "Not frequently experienced",
+          "hypoxemia": "Not observed",
+          "nasal_congestion": "Occasional, especially during allergy season",
+          "sneezing": "Occasional, mostly during allergy season",
+          "itchy_eyes": "Mild, related to seasonal allergies",
+          "speech_interruption": "Rarely observed",
+          "retraction_signs": "Not observed",
+          "increased_heart_rate": "Mild increase during asthma symptoms",
+          "orthopnea": "Not observed",
+          "word_by_word_speech": "Not observed",
+          "irritability": "Slightly irritable during severe symptoms"
+        },
+        "duration": "Symptoms have been occurring intermittently for the past month, typically triggered by exercise or during the night. Each episode lasts a few minutes to a few hours and is managed with over-the-counter inhalers."
+      },
+      "examination_results": {
+        "chest_x-ray": "The chest X-ray appears normal with no signs of hyperinflation or acute pathology. This suggests that the current symptoms are more consistent with mild asthma rather than severe airway obstruction or other lung conditions.",
+        "pulmonary_function_test": "The pulmonary function tests show mild obstruction with a forced expiratory volume in one second (FEV1) at 82% of predicted. Bronchodilator response is positive, indicating reversible airway obstruction characteristic of asthma.",
+        "exhaled_nitric_oxide_(feno)_test": "FeNO levels are within normal range at 22 ppb, indicating that airway inflammation is not significantly elevated at this time, which aligns with the mild severity of symptoms.",
+        "blood_gas_analysis": "The blood gas analysis shows normal oxygen and carbon dioxide levels, consistent with the mild nature of the symptoms and absence of severe hypoxemia.",
+        "sputum_eosinophil_count": "Sputum eosinophil count is 2% (normal < 3%), reflecting mild inflammation that is consistent with the reported mild asthma symptoms.",
+        "allergen_test": "Allergen testing is positive for pollen and dust mites, which are likely contributing to the occasional nasal congestion and itchy eyes, suggesting these allergens are triggers for asthma exacerbations."
+      }
+    }
+  },
+  {
+    "line_number": 11710,
+    "item_id": 1709,
+    "issues": [
+      "Key 'age' should be int, got str",
+      "'age' must be an integer"
+    ],
+    "data": {
+      "id": 1709,
+      "name": "Javier Morales",
+      "gender": "Male",
+      "age": "2 years",
+      "medical_history": [],
+      "lifestyle_factor": [
+        "Exposure to cold environments",
+        "Non-smoking household",
+        "No known exposure to irritants"
+      ],
+      "vaccination_history": [
+        "Up-to-date on childhood vaccinations"
+      ],
+      "family_history": [],
+      "disease": "Acute Nasopharyngitis",
+      "level": "severe",
+      "symptom": {
+        "symptoms": [
+          "high fever",
+          "significant nasal congestion",
+          "severe sore throat",
+          "cough",
+          "headache",
+          "fatigue"
+        ],
+        "duration": "Symptoms have been severe for the past 10 days, with persistent fever and difficulty feeding."
+      },
+      "examination_results": {
+        "nasopharyngoscopy": "The nasopharyngoscopy shows diffuse congestion and edema of the mucosa, particularly in the nasopharyngeal region, with significant mucopurulent secretions. Due to the patient's young age and difficulty in cooperation, visualization was partially limited, but the observed findings are consistent with severe upper respiratory tract inflammation.",
+        "pharyngoscopy": "The pharyngoscopy reveals mucopurulent discharge flowing down from the nasopharynx onto the posterior wall of the pharynx. This finding supports the diagnosis of severe nasopharyngitis with significant mucus production and inflammation."
+      }
+    }
+  },
+  {
+    "line_number": 11993,
+    "item_id": 1992,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 1992,
+      "name": "Juan Martinez",
+      "gender": "Male",
+      "age": 33,
+      "medical_history": [
+        "No chronic illnesses",
+        "No previous history of severe respiratory infections"
+      ],
+      "lifestyle_factor": [
+        "Works in a crowded office environment",
+        "Occasional social gatherings",
+        "Typically maintains good hygiene",
+        "Moderate physical activity"
+      ],
+      "vaccination_history": [
+        "Not vaccinated against Influenza A"
+      ],
+      "family_history": [
+        "No significant family history of chronic illnesses or severe infections"
+      ],
+      "disease": "Influenza A",
+      "level": "moderate",
+      "symptom": {
+        "symptoms": {
+          "high_fever": "Present since the onset of illness, lasting 4 days",
+          "cough": "Persistent, worsening over 5 days",
+          "sore_throat": "Severe at the beginning, now moderate",
+          "rhinorrhea": "Persistent nasal discharge for 5 days",
+          "fatigue": "Severe fatigue experienced for 6 days",
+          "headache": "Continuous for 4 days",
+          "generalized_muscle_soreness": "Present for 5 days",
+          "tachypnea": "Noted during physical exertion",
+          "tachycardia": "Occasional episodes, monitored for 3 days",
+          "cyanosis_of_the_lips": "Not observed",
+          "decreased_reactivity": "Slightly reduced, especially when fever is high",
+          "lethargy": "Persistent feeling of tiredness for 5 days",
+          "agitation": "Occasional, mostly during high fever periods",
+          "low_fever": "Previous high fever has decreased to low-grade, persisting",
+          "difficulty_with_feeding": "Mild, related to sore throat and decreased appetite",
+          "dehydration": "Mild, managed with increased fluid intake"
+        },
+        "duration": "Symptoms have been present for approximately 7 days, with gradual improvement expected over the next few days with appropriate treatment"
+      },
+      "examination_results": {
+        "routine_blood_test": "The routine blood test reveals a normal white blood cell count with no significant deviation in platelet levels. No evidence of secondary bacterial infection as the neutrophil count remains within normal limits. Slightly elevated levels of liver enzymes (AST and ALT) are noted, likely due to the viral infection.",
+        "laboratory_tests": "Serological testing confirms a significant increase in influenza A-specific antibodies between initial and follow-up samples, consistent with recent infection. No viral nucleic acid was detected in respiratory specimens, suggesting the infection is in the recovery phase.",
+        "chest_x-ray": "The chest X-ray shows mild patchy consolidations in the lower lung fields, with no significant ground glass opacities or extensive lung involvement. These findings are consistent with moderate influenza infection without overt pneumonia."
+      }
+    }
+  },
+  {
+    "line_number": 13567,
+    "item_id": 3566,
+    "issues": [
+      "Symptom key 'symptoms' should be list, got dict"
+    ],
+    "data": {
+      "id": 3566,
+      "name": "Lucas Moreno",
+      "gender": "Male",
+      "age": 39,
+      "medical_history": [
+        "Previous episodes of respiratory infections",
+        "No chronic health conditions"
+      ],
+      "lifestyle_factor": [
+        "Works in a busy office environment",
+        "Occasional exposure to large crowds",
+        "Non-smoker",
+        "Moderate exercise routine"
+      ],
+      "vaccination_history": [
+        "Not vaccinated against influenza for the current year",
+        "Received childhood vaccinations"
+      ],
+      "family_history": [
+        "No significant family history related to influenza or respiratory conditions"
+      ],
+      "disease": "Influenza B",
+      "level": "mild",
+      "symptom": {
+        "symptoms": {
+          "headache": "Persistent for the past 4 days",
+          "fever": "Mild to moderate, fluctuates between 100.4°F and 101.5°F, lasted 3 days",
+          "chills": "Occasional, mainly at night",
+          "myalgia": "Generalized muscle soreness experienced for 4 days",
+          "malaise": "General feeling of discomfort, lasting 4 days",
+          "cough": "Dry cough present for 5 days",
+          "sore_throat": "Mild sore throat, lasted 3 days",
+          "hyperthermia": "Occasional bouts of elevated body temperature",
+          "aversion_to_cold": "Noticed over the past 3 days",
+          "generalized_muscle_soreness": "Present for 4 days",
+          "arthralgia": "Mild joint pain, especially in the legs, for 4 days",
+          "fatigue": "Persistent, affecting daily activities, lasting 5 days",
+          "anorexia": "Decreased appetite, present for 3 days",
+          "throat_pain": "Mild pain, observed for 3 days",
+          "dry_cough": "Persistent, worsening at night, lasted 5 days",
+          "nasal_congestion": "Mild, present for 3 days",
+          "rhinorrhea": "Occasional runny nose, lasted 3 days",
+          "discomfort_behind_the_sternum": "Mild discomfort, experienced for 3 days"
+        },
+        "duration": "Symptoms have persisted for the past 5 days, with gradual improvement expected over the next few days."
+      },
+      "examination_results": {
+        "routine_blood_test": "The blood test shows a slight increase in lymphocytes with a total white blood cell count within the normal range, indicating a mild viral infection without significant systemic involvement.",
+        "laboratory_tests": "Serological testing confirms the presence of antibodies to the influenza B virus. The acute serum sample shows a moderate level of influenza B-specific antibodies, and the convalescent serum sample, collected after 10 days, shows a fourfold increase in antibody titers, confirming recent infection.",
+        "chest_x-ray": "The chest X-ray is normal with no signs of pulmonary complications. There is no evidence of pneumonia or other severe lung changes, consistent with the mild severity of symptoms."
+      }
+    }
+  }
+]
