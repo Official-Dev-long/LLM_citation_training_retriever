@@ -1,0 +1,26 @@
+annotated-types @ file:///C:/b/abs_0dmaoyhhj3/croot/annotated-types_1709542968311/work
+anyio @ file:///C:/miniconda3/conda-bld/anyio_1758622431960/work
+beartype==0.18.5
+certifi @ file:///C:/miniconda3/conda-bld/certifi_1759786100715/work/certifi
+charset-normalizer==3.4.4
+click @ file:///C:/b/abs_bbg7qqz4dk/croot/click_1754477951021/work
+colorama @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/colorama_1699472650914/work
+distro @ file:///C:/b/abs_71xr36ua5r/croot/distro_1714488282676/work
+h11 @ file:///C:/b/abs_224rqu7kel/croot/h11_1748442031959/work
+httpcore @ file:///C:/b/abs_25m7_xthp6/croot/httpcore_1748526065845/work
+httpx @ file:///C:/miniconda3/conda-bld/httpx_1760447370855/work
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+jiter @ file:///C:/b/abs_acsxrw36a6/croot/jiter_1729808947806/work
+openai @ file:///C:/miniconda3/conda-bld/openai_1759140362755/work
+pydantic @ file:///C:/miniconda3/conda-bld/pydantic_1758736883934/work
+pydantic_core @ file:///C:/b/abs_d0xs0z3erk/croot/pydantic-core_1750754747982/work
+python-dotenv @ file:///C:/b/abs_71cpoh9hpg/croot/python-dotenv_1745613639902/work
+ragflow-sdk==0.21.1
+requests==2.32.5
+setuptools==80.9.0
+sniffio @ file:///C:/b/abs_3akdewudo_/croo%g/@ file:\/\//dt/sniffio_1705431337396/work
+tqdm @ file:///C:/b/abs_0eh9b6xugj/croot/tqdm_1738945553987/work
+typing-inspection @ file:///C:/miniconda3/conda-bld/typing-inspection_1760614186985/work
+typing_extensions @ file:///C:/b/abs_ecq8gc0vbm/croot/typing_extensions_1756281142218/work
+urllib3==2.5.0
+wheel==0.45.1
