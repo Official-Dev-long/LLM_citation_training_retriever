@@ -19,10 +19,13 @@ def read_jsonl(file_path, limit=LIMIT):
 
 data = read_jsonl(JSON_FILE, limit=LIMIT)
 medical_case = data[1]['message']
-print(medical_case)
+
+# Convert to JSON string with formatting
+medical_case_string = json.dumps(medical_case, indent=2, ensure_ascii=False)
+medical_case_string = "哮喘治疗"
 
 retriever = treatment_guideline_retriever()
 retriever.sync_datasets()
 
-retrieved_result = retriever.retrieve_guidelines(query=medical_case, department_names=["呼吸科"])
+retrieved_result = retriever.retrieve_guidelines(query=medical_case_string, department_names=["呼吸科"])
 print(retrieved_result)

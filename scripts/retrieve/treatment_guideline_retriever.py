@@ -152,8 +152,10 @@ class treatment_guideline_retriever:
             print("Error: No valid department IDs found.")
             return []
         
-        retrieve_chunks = self.rag_object.retrieve(question=query, dataset_ids=department_ids, page_size=k)
-
+        retrieve_chunks = self.rag_object.retrieve(question=query, 
+                                                   dataset_ids=department_ids, 
+                                                   page_size=k
+                                                   )
         results = []
         for idx, chunk in enumerate(retrieve_chunks):
 

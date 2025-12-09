@@ -56,8 +56,8 @@ def fetch_and_save_datasets(json_path: str = "datasets_full.json") -> None:
 
 def retrieve_metadata_filteration(disease_name: str, department_id: List[str], k: int=32) -> List[Dict]:
 
-    url = "http://39.97.162.192/api/v1/retrieval"
-    api_key = "ragflow-I1MTljMDQ0YzA2ZTExZjBiMzA1OTI0NT"
+    url = os.getenv("RAGFLOW_BASE_URL") + "/api/v1/retrieval"
+    api_key = os.getenv("RAGFLOW_API_KEY")
 
     headers = {
         'Content-Type': 'application/json',
@@ -210,5 +210,3 @@ if __name__ == "__main__":
 
     print("==== Metadata Filteration Results ====")
     print(retrieve_chunks_with_metadata_filteration)
-
-        
