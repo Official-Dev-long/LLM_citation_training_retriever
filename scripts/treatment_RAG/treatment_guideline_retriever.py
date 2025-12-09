@@ -22,7 +22,9 @@ class treatment_guideline_retriever:
             base_url: RAGFlow base URL
             json_path: Path to the datasets JSON file
         """
-        self.rag_object = RAGFlow(api_key=os.getenv("RAGFLOW_API_KEY"), base_url=os.getenv("RAGFLOW_BASE_URL"))
+        self.rag_object = RAGFlow(api_key=os.getenv("RAGFLOW_API_KEY"),                     
+                                  base_url=os.getenv("RAGFLOW_BASE_URL")
+                                  )
         self.json_path = "./datasets_full.json" 
         self.department_mapping = self._load_department_mapping()
     
