@@ -4,9 +4,15 @@ import json
 import requests
 from typing import Any, List, Dict, Optional 
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 DEPARTMENT_REQUIRED_list = ["呼吸科"]
 
-rag_object = RAGFlow(api_key="ragflow-I1MTljMDQ0YzA2ZTExZjBiMzA1OTI0NT", base_url="http://39.97.162.192/")
+rag_object = RAGFlow(api_key=os.getenv("RAGFLOW_API_KEY"),                     
+                     base_url=os.getenv("RAGFLOW_BASE_URL")
+                     )
 
 def _dataset_to_dict(dataset: Any) -> dict:
     """Convert a ragflow dataset object to a plain dict for JSON serialization."""
@@ -193,7 +199,6 @@ if __name__ == "__main__":
 
     for idx, chunk in enumerate(retrieve_chunks):
         # print(chunk)
-
         print(f"==== Chunk {idx} ====")
         print(f"Content: {chunk.content}")
         print(f"Source Document ID: {chunk.document_id}")

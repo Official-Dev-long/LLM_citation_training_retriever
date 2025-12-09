@@ -9,9 +9,9 @@ load_dotenv()
 
 LIMIT = None
 INPUT_FILE = "../../data/raw_data/pulmonology_case_synthesized_yonghui.jsonl"
-OUTPUT_FILE = "../../data/translated_data/pulmonology_case_synthesized_yonghui_translated_0_4999.jsonl"
+OUTPUT_FILE = "../../data/translated_data/pulmonology_case_synthesized_yonghui_translated_2300_4999.jsonl"
 
-START_INDEX = 0      # first run: 0, second run: 5000
+START_INDEX = 2300      # first run: 0, second run: 5000
 END_INDEX = 4999     # first run: 4999, second run:
 
 client = OpenAI(

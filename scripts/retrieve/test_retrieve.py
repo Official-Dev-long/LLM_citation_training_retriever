@@ -3,7 +3,7 @@ from ragflow_sdk import RAGFlow
 
 import json
 
-JSON_FILE = "../../data/translated_data/test_pulmonology_case_synthesized_yonghui_translated.jsonl"
+JSON_FILE = "./data/translated_data/test_pulmonology_case_synthesized_yonghui_translated.jsonl"
 LIMIT = 2
 
 def read_jsonl(file_path, limit=LIMIT):

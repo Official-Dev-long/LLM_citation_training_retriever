@@ -2,7 +2,6 @@ from treatment_guideline_retriever import treatment_guideline_retriever
 
 retriever = treatment_guideline_retriever()
 
-
 # -----------------------------------------------------------------------------
 # minimal usage 
 # -----------------------------------------------------------------------------
