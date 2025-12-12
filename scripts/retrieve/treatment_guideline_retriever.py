@@ -135,7 +135,7 @@ class treatment_guideline_retriever:
                 return name
         return None
 
-    def retrieve_guidelines(self, query: str, department_names: List[str], k: int = 100) -> List[Dict]:
+    def retrieve_guidelines(self, query: str, department_names: List[str]) -> List[Dict]:
         """
         Retrieve information based on a medical record.
         
@@ -147,6 +147,8 @@ class treatment_guideline_retriever:
             List of dictionaries containing chunk information
         """
         department_ids = self.get_department_ids(department_names)
+
+        print(department_ids)
         
         if not department_ids:
             print("Error: No valid department IDs found.")
@@ -154,8 +156,9 @@ class treatment_guideline_retriever:
         
         retrieve_chunks = self.rag_object.retrieve(question=query, 
                                                    dataset_ids=department_ids, 
-                                                   page_size=k
                                                    )
+        print(retrieve_chunks)
+
         results = []
         for idx, chunk in enumerate(retrieve_chunks):
 
@@ -166,6 +169,7 @@ class treatment_guideline_retriever:
             _document_name = _document[0].name if _document else " "
 
             chunk_info = {
+                "idx": idx,
                 "content": chunk.content,
                 "department_id": chunk.dataset_id,
                 "department_name": _dataset_name,

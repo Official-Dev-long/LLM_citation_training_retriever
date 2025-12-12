@@ -87,7 +87,6 @@ def retrieve_metadata_filteration(disease_name: str, department_id: List[str], k
     return result
 
 
-
 if __name__ == "__main__":
     # Only write the full dataset objects (avatar removed). 
     # fetch_and_save_datasets()
@@ -195,10 +194,10 @@ if __name__ == "__main__":
             }
     """
 
-    retrieve_chunks = rag_object.retrieve(question=query, dataset_ids=departments, page_size=100)
+    retrieve_chunks = rag_object.retrieve(question=query, dataset_ids=departments, page_size=32)
 
     for idx, chunk in enumerate(retrieve_chunks):
-        # print(chunk)
+        print(chunk)
         print(f"==== Chunk {idx} ====")
         print(f"Content: {chunk.content}")
         print(f"Source Document ID: {chunk.document_id}")
