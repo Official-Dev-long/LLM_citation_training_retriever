@@ -25,7 +25,7 @@ class treatment_guideline_retriever:
         self.rag_object = RAGFlow(api_key=os.getenv("RAGFLOW_API_KEY"),                     
                                   base_url=os.getenv("RAGFLOW_BASE_URL")
                                   )
-        self.json_path = "./datasets_full.json" 
+        self.json_path = "./scripts/distill/departments_full_list.jsonl" 
         self.department_mapping = self._load_department_mapping()
     
     def _dataset_to_dict(self, dataset: Any) -> dict:
@@ -147,8 +147,6 @@ class treatment_guideline_retriever:
             List of dictionaries containing chunk information
         """
         department_ids = self.get_department_ids(department_names)
-
-        print(department_ids)
         
         if not department_ids:
             print("Error: No valid department IDs found.")
@@ -157,7 +155,6 @@ class treatment_guideline_retriever:
         retrieve_chunks = self.rag_object.retrieve(question=query, 
                                                    dataset_ids=department_ids, 
                                                    )
-        print(retrieve_chunks)
 
         results = []
         for idx, chunk in enumerate(retrieve_chunks):
